@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="blog.css" rel="stylesheet">
+    <title>Document</title>
+
+    <div id="BlogTitle">
+        <h1>Utazzunk együtt</h1>
+    </div>
+
+</head>
+
+<body>
+    <div>
+        <h3>Új bejegyzés</h3>
+        <div class="kep"> Bali </div>
+    </div>
+
+        <form>
+            <div>
+                <div>
+                    <h4>Cím</h4>
+                    <input id="title" type="text">
+                    <div>
+
+                        <h4>Content</h4>
+                        <input id="content" type="text">
+                    </div>
+
+
+                    <input type="submit" id="Gomb" style="padding-top: 20px">
+                </div>
+
+
+        </form>
+
+        <h4>Előző bejegyzések</h4>
+
+        <ul id="postok">
+            <li id="box1">
+                <p>Télből nyárba. Igen :)</p>
+            </li>
+            <li id="box2">
+                <p>Kóstolj bele a Toszkán életformába :)</p>
+            </li>
+        </ul>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyAUxhIspxVm4DT2ccILm8p1nyiDNEoAHMc",
+                authDomain: "blog-projekt-4dcd8.firebaseapp.com",
+                databaseURL: "https://blog-projekt-4dcd8.firebaseio.com",
+                projectId: "blog-projekt-4dcd8",
+                storageBucket: "blog-projekt-4dcd8.appspot.com",
+                messagingSenderId: "1035756879378"
+            };
+            firebase.initializeApp(config);
+        </script>
+        <script src="blog.js"></script>
+</body>
+
+</html>

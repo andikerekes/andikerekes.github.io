@@ -1,0 +1,46 @@
+#BlogTitle {
+    background-color: #0e91a1;
+    border-style: solid;
+    box-sizing: content-box;
+    border-width: 5px;
+    border-color: black;
+    font-size: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: right;
+    justify-content: flex-end;
+ 
+}
+
+#box1 {
+    margin-bottom: 20px;
+ 
+}
+
+#title{
+    background-color: silver;
+}
+
+#content {
+    box-sizing: content-box;
+    border-width: 5px;
+    width: 400px;
+    height: 100px;
+    background-color: silver;
+
+}
+
+.kep{
+    background-image: url(best-resorts-bali.jpg);
+    background-repeat: no-repeat;
+    align-items: right;
+    float: right;
+    width: 400px;
+    height: 300px;
+}
+
+body {
+    background-color: aquamarine
+    
+    
+}
